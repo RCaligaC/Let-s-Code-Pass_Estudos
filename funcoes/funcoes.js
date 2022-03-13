@@ -1,6 +1,6 @@
 // Criando uma simples função
 function escreva(){
-    alert('Olá, minha primeira função.');
+    console.log('Olá, minha primeira função.');
 }
 
 escreva();
@@ -8,7 +8,7 @@ escreva();
 function somar(){
     a = Number(prompt('Digite um número: '));
     b = Number(prompt('Digite outro número: '));
-    alert(a + b);
+    console.log(a + b);
 }
 
 somar();
@@ -16,7 +16,7 @@ somar();
 //criando uma função com parâmetros
 
 function mult(a,b){
-    alert(a * b);
+    console.log(a * b);
 }
 
 mult(5,11);
@@ -25,7 +25,7 @@ function sub(a,b){
     return a - b
 }
 
-alert(sub(11,5));
+console.log(sub(11,5));
 
 
 // outras fomas de declarar
@@ -39,7 +39,7 @@ const soma2 = function(a,b) {return a+b};
 
 // atribuindo uma função de "flexa" em constantes
 
-const soma3 = (a,b) => a+b
+const soma3 = (a,b) => a+b;
 
 // exemplos de funções de flexa
 
